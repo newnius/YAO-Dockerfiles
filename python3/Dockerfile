@@ -1,4 +1,4 @@
-FROM quickdeploy/base
+FROM quickdeploy/yao-base
 
 MAINTAINER Newnius <newnius.cn@gmail.com>
 

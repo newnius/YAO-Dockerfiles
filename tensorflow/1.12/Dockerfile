@@ -1,4 +1,4 @@
-FROM quickdeploy/python3
+FROM quickdeploy/yao-python3
 
 MAINTAINER Newnius <newnius.cn@gmail.com>
 
