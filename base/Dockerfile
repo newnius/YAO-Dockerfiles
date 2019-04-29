@@ -5,7 +5,8 @@ MAINTAINER Newnius <newnius.cn@gmail.com>
 USER root
 
 RUN apt update && \
-	apt install -y git
+	apt install -y git && \
+	rm -rf /var/lib/apt/lists/*
 
 ADD bootstrap.sh /etc/bootstrap.sh
 

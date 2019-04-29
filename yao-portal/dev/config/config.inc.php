@@ -3,7 +3,7 @@
 define('YAO_VERSION', '0.2.1');
 
 /* Custom */
-define('YAO_SCHEDULER_ADDR', 'http://yao-scheduler');
+define('YAO_SCHEDULER_ADDR', 'http://yao-scheduler:8080');
 
 /* Mysql */
 /* It is not recommended to use `root` in production environment */
