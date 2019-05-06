@@ -1,0 +1,18 @@
+FROM ubuntu:16.04
+
+RUN apt update && \
+	apt install -y wget vim git gcc httpie dnsutils
+
+RUN wget https://dl.google.com/go/go1.12.4.linux-amd64.tar.gz && \
+	tar -C /usr/local -xzf go1.12.4.linux-amd64.tar.gz && \
+	rm go1.12.4.linux-amd64.tar.gz
+
+ENV PATH $PATH:/usr/local/go/bin
+
+RUN go get github.com/Shopify/sarama
+
+RUN git clone https://github.com/newnius/YAO-scheduler.git /root/yao-scheduler/
+
+WORKSPACE /root/yao-scheduler/
+
+CMD go run src/*
