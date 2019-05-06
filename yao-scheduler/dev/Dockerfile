@@ -13,6 +13,6 @@ RUN go get github.com/Shopify/sarama
 
 RUN git clone https://github.com/newnius/YAO-scheduler.git /root/yao-scheduler/
 
-WORKSPACE /root/yao-scheduler/
+WORKDIR /root/yao-scheduler/
 
 CMD go run src/*
