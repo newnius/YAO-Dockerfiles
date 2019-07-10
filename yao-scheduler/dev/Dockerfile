@@ -10,6 +10,7 @@ RUN wget https://dl.google.com/go/go1.12.4.linux-amd64.tar.gz && \
 ENV PATH $PATH:/usr/local/go/bin
 
 RUN go get github.com/Shopify/sarama
+RUN go get github.com/sirupsen/logrus
 
 RUN git clone https://github.com/newnius/YAO-scheduler.git /root/yao-scheduler/
 
