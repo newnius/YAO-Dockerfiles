@@ -8,7 +8,7 @@ RUN apt update && \
 	apt install -y git && \
 	rm -rf /var/lib/apt/lists/*
 
-RUN pip install requests psutil py-cpuinfo
+RUN pip install requests psutil py-cpuinfo pandas
 
 ADD bootstrap.sh /etc/bootstrap.sh
 
