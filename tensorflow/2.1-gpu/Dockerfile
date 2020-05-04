@@ -12,4 +12,6 @@ RUN pip3 install requests psutil py-cpuinfo pandas typing
 
 ADD bootstrap.sh /etc/bootstrap.sh
 
+ADD save.py /etc/save.py
+
 ENTRYPOINT ["/etc/bootstrap.sh"]

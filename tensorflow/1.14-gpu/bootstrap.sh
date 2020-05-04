@@ -18,4 +18,4 @@ fi
 eval $@
 
 # persist output
-sleep 15
+python /etc/save.py
