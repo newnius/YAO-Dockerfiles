@@ -12,8 +12,10 @@ if [ -d /workspace ]; then
   cd /workspace
 fi
 
-sleep infinity
+#sleep infinity
 
 # use eval because commands likes `key=value command` would cause file not found error when using $@, but this eval will ruin current environment
 eval $@
 
+# Persist output
+sleep 15

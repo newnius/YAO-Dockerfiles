@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="85ecba17-7fb1-4325-9b94-47b03fc3242d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yao-optimizer/dev/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/yao-optimizer/dev/Dockerfile" afterDir="false" />
-    </list>
+    <list default="true" id="85ecba17-7fb1-4325-9b94-47b03fc3242d" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +12,7 @@
     <session id="-1552701856">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -44,26 +42,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/yao-optimizer/dev/Dockerfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yao-optimizer/dev/bootstrap.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -72,6 +51,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/yao-optimizer/dev/Dockerfile" />
+        <option value="$PROJECT_DIR$/yao-optimizer/dev/bootstrap.sh" />
       </list>
     </option>
   </component>
@@ -99,39 +79,6 @@
               <item name="YAO-Dockerfiles" type="b2602c69:ProjectViewProjectNode" />
               <item name="YAO-Dockerfiles" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="YAO-Dockerfiles" type="b2602c69:ProjectViewProjectNode" />
-              <item name="YAO-Dockerfiles" type="462c0819:PsiDirectoryNode" />
-              <item name="yao-optimizer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="YAO-Dockerfiles" type="b2602c69:ProjectViewProjectNode" />
-              <item name="YAO-Dockerfiles" type="462c0819:PsiDirectoryNode" />
-              <item name="yao-optimizer" type="462c0819:PsiDirectoryNode" />
-              <item name="dev" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="YAO-Dockerfiles" type="b2602c69:ProjectViewProjectNode" />
-              <item name="YAO-Dockerfiles" type="462c0819:PsiDirectoryNode" />
-              <item name="yao-portal" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="YAO-Dockerfiles" type="b2602c69:ProjectViewProjectNode" />
-              <item name="YAO-Dockerfiles" type="462c0819:PsiDirectoryNode" />
-              <item name="yao-portal" type="462c0819:PsiDirectoryNode" />
-              <item name="dev" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="YAO-Dockerfiles" type="b2602c69:ProjectViewProjectNode" />
-              <item name="YAO-Dockerfiles" type="462c0819:PsiDirectoryNode" />
-              <item name="yao-scheduler" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="YAO-Dockerfiles" type="b2602c69:ProjectViewProjectNode" />
-              <item name="YAO-Dockerfiles" type="462c0819:PsiDirectoryNode" />
-              <item name="yao-scheduler" type="462c0819:PsiDirectoryNode" />
-              <item name="dev" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -142,7 +89,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588421603581" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588427376837" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -176,16 +123,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1588322756669</updated>
-      <workItem from="1588322758024" duration="1958000" />
+      <workItem from="1588322758024" duration="3379000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1958000" />
+    <option name="totallyTimeSpent" value="3379000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -242,14 +188,14 @@
     <entry file="file://$PROJECT_DIR$/yao-optimizer/dev/bootstrap.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yao-optimizer/dev/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="90">
+          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
         </state>
       </provider>
     </entry>
