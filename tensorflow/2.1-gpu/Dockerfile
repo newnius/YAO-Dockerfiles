@@ -8,7 +8,7 @@ RUN apt update && \
 	apt install -y git && \
 	rm -rf /var/lib/apt/lists/*
 
-RUN pip3 install requests psutil py-cpuinfo pandas typing
+RUN pip3 install requests psutil py-cpuinfo pandas typing hdfs
 
 ADD bootstrap.sh /etc/bootstrap.sh
 
