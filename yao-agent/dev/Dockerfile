@@ -12,7 +12,7 @@ RUN apt update && \
 
 RUN pip3 install docker kafka psutil
 
-RUN git clone https://github.com/newnius/YAO-agennt.git /yao-agent
+RUN git clone https://github.com/newnius/YAO-agent.git /yao-agent
 
 WORKDIR /yao-agent
 
