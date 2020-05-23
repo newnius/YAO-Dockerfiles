@@ -11,6 +11,7 @@ ENV PATH $PATH:/usr/local/go/bin
 
 RUN go get github.com/Shopify/sarama
 RUN go get github.com/sirupsen/logrus
+RUN go get github.com/MaxHalford/eaopt
 
 RUN git clone https://github.com/newnius/YAO-scheduler.git /root/yao-scheduler/
 
