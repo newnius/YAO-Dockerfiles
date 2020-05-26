@@ -21,4 +21,6 @@ ADD conf/config.json /etc/yao/
 
 WORKDIR /root/yao-scheduler/
 
-CMD go run src/*
+ADD bootstrap.sh /etc/
+
+CMD ["/etc/bootstrap.sh"]
