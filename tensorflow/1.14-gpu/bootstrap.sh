@@ -17,5 +17,9 @@ fi
 # use eval because commands likes `key=value command` would cause file not found error when using $@, but this eval will ruin current environment
 eval $@
 
+code=$?
+
 # persist output
 python /etc/save.py
+
+exit $code

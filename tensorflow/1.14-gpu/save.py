@@ -15,6 +15,6 @@ if __name__ == '__main__':
     client = Client(hdfs_address)
     client.upload(hdfs_dir, output_dir)
 
-    print('Save ' + output_dir + 'to' + hdfs_address + ' ' + hdfs_dir)
+    print('Save ' + output_dir + ' to' + hdfs_address + ' ' + hdfs_dir)
   except Exception as e:
     print('Unable to persist data to HDFS,', str(e))
